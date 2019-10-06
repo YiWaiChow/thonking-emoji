@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Face from "./thonking.jpg";
+import face from "./thonking.jpg";
 
 class Face extends Component {
   render() {
@@ -14,7 +14,7 @@ class Face extends Component {
           left: 900
         }}
       >
-        <img src={Face} alt="face" height={800} width={900} />
+        <img src={face} alt="face" height={800} width={900} />
       </div>
     );
   }
