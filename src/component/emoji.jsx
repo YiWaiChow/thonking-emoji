@@ -8,13 +8,11 @@ class Face extends Component {
         className="face emoji"
         style={{
           position: "absolute",
-          zindex: 0,
-          positon: "relative",
-          top: 200,
-          left: 900
+          top: this.props.height*0.2,
+          left: this.props.width*0.3
         }}
       >
-        <img src={face} alt="face" height={800} width={900} />
+        <img src={face} alt="face" height={this.props.height*0.6} width={this.props.width*0.4} />
       </div>
     );
   }
