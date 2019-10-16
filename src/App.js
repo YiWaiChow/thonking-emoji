@@ -25,33 +25,34 @@ class App extends Component {
     return (
       <main onMouseMove={this._onMouseMove.bind(this)}>
         <BackgroundImage />
+        <Adjust
+          x={this.state.browserx}
+          y={this.state.browsery}
+          posx={Math.random() * this.state.browserx}
+          posy={Math.random() * this.state.browsery}
+        />
+
+        <Adjust
+          x={this.state.browserx}
+          y={this.state.browsery}
+          posx={Math.random() * this.state.browserx}
+          posy={Math.random() * this.state.browsery}
+        />
+
+        <Adjust
+          x={this.state.browserx}
+          y={this.state.browsery}
+          posx={Math.random() * this.state.browserx}
+          posy={Math.random() * this.state.browsery}
+        />
         <Face height={this.state.browsery} width={this.state.browserx} />
+
         <Hand
           height={this.state.browserx * 0.2}
           width={this.state.browsery * 0.4}
           top={this.state.y}
           left={x}
           limit={this.state.limitx}
-        />
-        <Adjust
-          x={this.state.browserx}
-          y={this.state.browsery}
-          posx={Math.random() * this.state.browserx}
-          posy={Math.random() * this.state.browsery}
-        />
-
-        <Adjust
-          x={this.state.browserx}
-          y={this.state.browsery}
-          posx={Math.random() * this.state.browserx}
-          posy={Math.random() * this.state.browsery}
-        />
-
-        <Adjust
-          x={this.state.browserx}
-          y={this.state.browsery}
-          posx={Math.random() * this.state.browserx}
-          posy={Math.random() * this.state.browsery}
         />
       </main>
     );
