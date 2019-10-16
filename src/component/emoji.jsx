@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import face from "./thonking.jpg";
+import face from "./thonking.png";
 
 class Face extends Component {
   render() {
