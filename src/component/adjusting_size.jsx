@@ -28,7 +28,7 @@ class Adjust extends Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.tick(), 10);
+    this.interval = setInterval(() => this.tick(), 50);
   }
 
   componentWillUnmount() {

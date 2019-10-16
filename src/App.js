@@ -17,13 +17,13 @@ class App extends Component {
     };
   }
   _onMouseMove(e) {
-    this.setState({ x: e.screenX });
+    this.setState({ x: e.clientX });
   }
   render() {
     var { x } = this.state;
 
     return (
-      <div onMouseMove={this._onMouseMove.bind(this)}>
+      <main onMouseMove={this._onMouseMove.bind(this)}>
         <BackgroundImage />
         <Face height={this.state.browsery} width={this.state.browserx} />
         <Hand
@@ -53,7 +53,7 @@ class App extends Component {
           posx={Math.random() * this.state.browserx}
           posy={Math.random() * this.state.browsery}
         />
-      </div>
+      </main>
     );
   }
 }
