@@ -1,15 +1,23 @@
-    body, html {
-        margin: 0px;
-        padding: 0px ;
-        height: 100%;
-        width:100%;
-    }
-    @media only screen and (max-width: 1280px){
-    .bg {
-    background-image:url("background.jpg");
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 1280px) {
+  .bg {
+    background-image: url("background.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1280px, 580px;
-    }
+  }
+}
+.bg {
+  background-image: url("background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
