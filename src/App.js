@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Face from "./component/emoji";
-import Hand from "./component/emojihand";
-import BackgroundImage from "./component/background";
-import Adjust from "./component/adjusting_size";
+import Face from "./emoji";
+import Hand from "./emojihand";
+import BackgroundImage from "./background";
+import Adjust from "./adjusting_size";
 
 class App extends Component {
   constructor(props) {
