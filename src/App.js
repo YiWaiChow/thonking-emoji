@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Face from "./emoji";
 import Hand from "./emojihand";
 import BackgroundImage from "./background";
+import { Helmet } from "react-helmet";
 import Adjust from "./adjusting_size";
 
 class App extends Component {
@@ -24,6 +25,9 @@ class App extends Component {
 
     return (
       <main onMouseMove={this._onMouseMove.bind(this)}>
+        <Helmet>
+          <title>{"Thonking-Emoji"}</title>
+        </Helmet>
         <BackgroundImage />
         <Adjust
           x={this.state.browserx}
