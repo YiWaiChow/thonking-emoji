@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/thonking-emoji/./static/css/main.0f2a5808.chunk.css",
+    "main.js": "/thonking-emoji/./static/js/main.0c28c2d9.chunk.js",
+    "main.js.map": "/thonking-emoji/./static/js/main.0c28c2d9.chunk.js.map",
+    "runtime-main.js": "/thonking-emoji/./static/js/runtime-main.876cebb5.js",
+    "runtime-main.js.map": "/thonking-emoji/./static/js/runtime-main.876cebb5.js.map",
+    "static/js/2.9c9ae1af.chunk.js": "/thonking-emoji/./static/js/2.9c9ae1af.chunk.js",
+    "static/js/2.9c9ae1af.chunk.js.map": "/thonking-emoji/./static/js/2.9c9ae1af.chunk.js.map",
+    "index.html": "/thonking-emoji/./index.html",
+    "precache-manifest.aeda1f22aa2412c3794725b9eb3cf9e0.js": "/thonking-emoji/./precache-manifest.aeda1f22aa2412c3794725b9eb3cf9e0.js",
+    "service-worker.js": "/thonking-emoji/./service-worker.js",
+    "static/css/main.0f2a5808.chunk.css.map": "/thonking-emoji/./static/css/main.0f2a5808.chunk.css.map",
+    "static/media/index.css": "/thonking-emoji/./static/media/background.ea895f26.jpg",
+    "static/media/hand.png": "/thonking-emoji/./static/media/hand.9763868f.png",
+    "static/media/thonking.png": "/thonking-emoji/./static/media/thonking.76f28cbe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.876cebb5.js",
+    "static/js/2.9c9ae1af.chunk.js",
+    "static/css/main.0f2a5808.chunk.css",
+    "static/js/main.0c28c2d9.chunk.js"
+  ]
+}
