@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thonking-emoji/./precache-manifest.aeda1f22aa2412c3794725b9eb3cf9e0.js"
+  "/thonking-emoji/./precache-manifest.97907599ec73f2f6ebb2b0ff0c75bc45.js"
 );
 
 self.addEventListener('message', (event) => {
